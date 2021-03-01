@@ -373,10 +373,10 @@
     <a href="#top" class="go-top"><i class="fa fa-chevron-up fa-1x"></i></a>
     <!-- end back to top -->
 
-    <script src="{{ URL::asset('js/jquery.js') }}"></script>
-    <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ URL::asset('js/smoothscroll.js') }}"></script>
-    <script src="{{ URL::asset('js/jquery.flexslider.js') }}"></script>
+    <script src="{{ URL::asset('js/jquery.js') }}" type="application/javascript"></script>
+    <script src="{{ URL::asset('js/bootstrap.min.js') }}" type="application/javascript"></script>
+    <script src="{{ URL::asset('js/smoothscroll.js') }}" type="application/javascript"></script>
+    <script src="{{ URL::asset('js/jquery.flexslider.js') }}" type="application/javascript"></script>
 
     <!-- start templatemo back to top js -->
     <script>
