@@ -363,7 +363,7 @@
                     <a href="https://www.instagram.com/orangehealthinitiative/" class="fa fa-instagram"></a>
                     <a href="mailto:orangehealth12@gmail.com" class="fa fa-envelope"></a>
                 </div>
-                <p>Copyright © 2084 Your Company Name</p>
+                <p>Copyright © {{ date("Y") }} Your Company Name</p>
             </div>
         </div>
     </footer>
