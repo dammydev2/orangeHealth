@@ -50,7 +50,7 @@ class PaymentService
 
     public function getAllDOnations()
     {
-        return $this->donation->orderBy('id', 'desc')->paginate(50);
+        return $this->donation->where('status', 'completed')->orderBy('id', 'desc')->paginate(50);
     }
 
     public function getTotalDOnations()
