@@ -55,7 +55,7 @@
             <div class="flexslider">
                 <ul class="slides">
                     <li>
-                        <img src="{{ asset('images/slider/health.jpg') }}" alt="Slide 1">
+                        <img src="{{ asset('images/hos.png') }}" alt="Slide 1">
                         <div class="slider-caption">
                             <div class="templatemo_homewrapper">
                                 <h1>Orange health Initiative</h1>
@@ -65,10 +65,10 @@
                         </div>
                     </li>
                     <li>
-                        <img src="{{ asset('images/slider/health.png') }}" alt="Slide 2">
+                        <img src="{{ asset('images/hos2.png') }}" alt="Slide 2">
                         <div class="slider-caption">
                             <div class="templatemo_homewrapper">
-                                <h1>Making quality Healthcare Accessible to ALL</h1>
+                                <h1 style="color: #ff4500;">Making quality Healthcare Accessible to ALL</h1>
                                 <!-- <h2>Work on all modern browsers, IE 10+</h2> -->
                                 <a href="#team" class="smoothScroll templatemo-slider-btn btn btn-default" onclick='document.getElementById("contact").scrollIntoView({behavior: "smooth"});'>Donate</a>
                             </div>
@@ -180,10 +180,19 @@
                     <h2>OUR PROGRAMMES</h2>
                     <p>Project Gray: Project Gray, our flagship medical outreach, is targeted to impact lives and minds of the senior citizens who are in need of care. OHI recognizes and identifies with the challenges of our ageing communities in terms of access to qualitative affordable health care, exclusion from public and private health insurance benefit, difficulty in accessory pension and gratuity as well as lonesomeness. We also recognize the critical role that older people have played and can still play in national development even in old age and we have dedicated one of our core programs to meet this need. Project Gray 1.0 and 2.0 has attended to over 1600 senior citizens already in its third year.
                         Healthcare Partnerships/ Hospital Franchising: We work to developed initiatives and partnerships with health care providers in order to strategically increase access of the elderly, children, and women to quality healthcare. We have successfully partnered with Veteran Hospital, the first private geriatric hospital in Nigeria and a multispecialty hospital rendering cutting edge services to senior citizens in Nigeria.</p>
-                    <p>Senior Citizens Health Fund: SCHIF is our innovative health insurance scheme which is taking shape and set to launch soon. We have successfully initiated process and dialogues to establish the Senior Citizens Health Fund which would help meet the healthcare financing needs of the above 60 who are left out of the traditional health insurance schemes.</p>
+                    <!-- <p>Senior Citizens Health Fund: SCHIF is our innovative health insurance scheme which is taking shape and set to launch soon. We have successfully initiated process and dialogues to establish the Senior Citizens Health Fund which would help meet the healthcare financing needs of the above 60 who are left out of the traditional health insurance schemes.</p>
                     <p>Advocacy: OHI champions advocacy to increase access to quality and affordable healthcare of the most neglected population groups. For more than 3 years, we have championed speaking up for the elderly and aged in Nigeria. We have also effectively brought to the notice of the public the need to celebrate the contributions of our senior citizens and to give back to them by celebrating the World Elders Day (instituted by UN /WHO) in Nigeria. We also conduct workshops and seminars to promote health literacy in different settings.</p>
-                    <p>Healthcare Programs Support: OHI in line with its mission to increase access to healthcare helps other NGOs, civil society groups and professional groups working in the healthcare space. OHI provides strategic planning and consulting, program/ project management, medical outreach coordination and fund raising services to help other organizations consolidate on their strengths and achieve their goals. OHI leverages on its network of experienced professionals, partners and sponsors to help others succeed.</p>
+                    <p>Healthcare Programs Support: OHI in line with its mission to increase access to healthcare helps other NGOs, civil society groups and professional groups working in the healthcare space. OHI provides strategic planning and consulting, program/ project management, medical outreach coordination and fund raising services to help other organizations consolidate on their strengths and achieve their goals. OHI leverages on its network of experienced professionals, partners and sponsors to help others succeed.</p> -->
                 </div>
+
+
+                
+
+                
+
+
+
+
                 <!-- <div class="col-md-12"></div>
                 <div class="col-sm-6 col-md-3">
                     <img src="{{ asset('images/doctor.jpg') }}" class="img-responsive" alt="team 1">
