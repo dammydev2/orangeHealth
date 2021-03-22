@@ -186,13 +186,38 @@
                 </div>
 
 
-                
 
-                
+                <div class="col-md-12">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <div class="img-list">
+                        <img src="{{ asset('images/gallery/1.jpg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/3.jpg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/2.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/13.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/8.jpg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/6.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/14.png') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/7.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/9.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/10.jpg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/11.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/15.jpg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <!-- <img src="" alt="2" />
+                        <img src="" alt="3" />
+                        <img src="" alt="4" />
+                        <img src="" alt="5" />
+                        <img src="" alt="6" />
+                        <img src="" alt="7" />
+                        <img src="" alt="8" />
+                        <img src="" alt="9" />
+                        <img src="" alt="10" />
+                        <img src="" alt="11" />
+                        <img src="" alt="12" /> -->
+                    </div>
+                    <a href="#" class="prev pagination-btn">Page 1</a>
+                    <a href="#" class="next pagination-btn">Page 2</a>
 
-
-
-
+                </div>
                 <!-- <div class="col-md-12"></div>
                 <div class="col-sm-6 col-md-3">
                     <img src="{{ asset('images/doctor.jpg') }}" class="img-responsive" alt="team 1">
@@ -436,6 +461,64 @@
                 moreText.style.display = "inline";
             }
         }
+    </script>
+    <style>
+        .img-list,
+        .pagination {
+            float: left;
+            clear: both;
+            display: inline;
+        }
+
+        .img-list img {
+            float: left;
+            max-height: 300px;
+        }
+
+        .img-list img:nth-child(4n-1) {
+            clear: both;
+        }
+    </style>
+    <script>
+        var start = 0;
+        var nb = 4;
+        var end = start + nb;
+        var length = $('.img-list img').length;
+        var list = $('.img-list img');
+
+        list.hide().filter(':lt(' + (end) + ')').show();
+
+
+        $('.prev, .next').click(function(e) {
+            e.preventDefault();
+
+            if (($(this).hasClass('prev') && start > 0) || ($(this).hasClass('next') && end < length)) {
+
+                if ($(this).hasClass('prev')) {
+                    start -= nb;
+                } else {
+                    start += nb;
+                }
+
+                end = start + nb;
+
+                if ((start / nb) < 1) {
+                    $('a.prev').html('Page 1');
+                } else {
+                    $('a.prev').html('Page ' + (start / nb));
+                }
+
+
+                if (end + nb > length) {
+                    $('a.next').html('Page ' + ((end / nb)));
+                } else {
+                    $('a.next').html('Page ' + ((end / nb) + 1));
+                }
+            }
+
+            if (start == 0) list.hide().filter(':lt(' + (end) + ')').show();
+            else list.hide().filter(':lt(' + (end) + '):gt(' + (start - 1) + ')').show();
+        });
     </script>
 
 </body>
