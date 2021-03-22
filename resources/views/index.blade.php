@@ -188,36 +188,45 @@
 
 
                 <div class="col-md-12">
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-                    <div class="img-list">
-                        <img src="{{ asset('images/gallery/1.jpg') }}" class="img img-responsive col-md-6" alt="1" />
-                        <img src="{{ asset('images/gallery/3.jpg') }}" class="img img-responsive col-md-6" alt="1" />
-                        <img src="{{ asset('images/gallery/2.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
-                        <img src="{{ asset('images/gallery/13.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
-                        <img src="{{ asset('images/gallery/8.jpg') }}" class="img img-responsive col-md-6" alt="1" />
-                        <img src="{{ asset('images/gallery/6.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
-                        <img src="{{ asset('images/gallery/14.png') }}" class="img img-responsive col-md-6" alt="1" />
-                        <img src="{{ asset('images/gallery/7.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
-                        <img src="{{ asset('images/gallery/9.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
-                        <img src="{{ asset('images/gallery/10.jpg') }}" class="img img-responsive col-md-6" alt="1" />
-                        <img src="{{ asset('images/gallery/11.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
-                        <img src="{{ asset('images/gallery/15.jpg') }}" class="img img-responsive col-md-6" alt="1" />
-                        <!-- <img src="" alt="2" />
-                        <img src="" alt="3" />
-                        <img src="" alt="4" />
-                        <img src="" alt="5" />
-                        <img src="" alt="6" />
-                        <img src="" alt="7" />
-                        <img src="" alt="8" />
-                        <img src="" alt="9" />
-                        <img src="" alt="10" />
-                        <img src="" alt="11" />
-                        <img src="" alt="12" /> -->
+                    <div class="col-sm-6 col-md-6">
+                        <div class="image_thumb">
+                            <img src="{{ asset('images/project/892015_1489727007906197_436166367496955223_o.jpg') }}" class="img-responsive" alt="work">
+                            <div class="image_overlay">
+                                <!-- <a href="#"><i class="fa fa-thumbs-o-up"></i></a> -->
+                            </div>
+                        </div>
                     </div>
-                    <a href="#" class="prev pagination-btn">Page 1</a>
-                    <a href="#" class="next pagination-btn">Page 2</a>
-
+                    <div class="col-sm-6 col-md-6">
+                        <div class="image_thumb">
+                            <img src="{{ asset('images/project/1920018_1489725024573062_3330437712474776728_n.jpg') }}" class="img-responsive" alt="work">
+                            <div class="image_overlay">
+                                <!-- <a href="#"><i class="fa fa-thumbs-o-up"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <p>&nbsp;</p>
+                    <div class="col-sm-6 col-md-6">
+                        <div class="image_thumb">
+                            <img src="{{ asset('images/project/10329813_1489726967906201_4010460371663753889_o.jpg') }}" class="img-responsive" alt="work">
+                            <div class="image_overlay">
+                                <!-- <a href="#"><i class="fa fa-thumbs-o-up"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <div class="image_thumb">
+                            <img src="{{ asset('images/project/10295706_1489725017906396_1319934161006544688_n.jpg') }}" class="img-responsive" alt="work">
+                            <div class="image_overlay">
+                                <!-- <a href="#"><i class="fa fa-thumbs-o-up"></i></a> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+
+
+
                 <!-- <div class="col-md-12"></div>
                 <div class="col-sm-6 col-md-3">
                     <img src="{{ asset('images/doctor.jpg') }}" class="img-responsive" alt="team 1">
@@ -263,79 +272,39 @@
                     </div>
                 </div>
                 <div class="col-md-12"></div>
-                <div class="col-md-6">
-                    <div class="col-sm-6 col-md-6">
-                        <div class="image_thumb">
-                            <img src="{{ asset('images/project/892015_1489727007906197_436166367496955223_o.jpg') }}" class="img-responsive" alt="work">
-                            <div class="image_overlay">
-                                <a href="#"><i class="fa fa-thumbs-o-up"></i></a>
-                            </div>
-                        </div>
+
+
+
+                <div class="col-md-12">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <div class="img-list">
+                        <img src="{{ asset('images/gallery/1.jpg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/3.jpg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/2.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/13.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/8.jpg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/6.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/14.png') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/7.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/9.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/10.jpg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/11.jpeg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <img src="{{ asset('images/gallery/15.jpg') }}" class="img img-responsive col-md-6" alt="1" />
+                        <!-- <img src="" alt="2" />
+                        <img src="" alt="3" />
+                        <img src="" alt="4" />
+                        <img src="" alt="5" />
+                        <img src="" alt="6" />
+                        <img src="" alt="7" />
+                        <img src="" alt="8" />
+                        <img src="" alt="9" />
+                        <img src="" alt="10" />
+                        <img src="" alt="11" />
+                        <img src="" alt="12" /> -->
                     </div>
-                    <div class="col-sm-6 col-md-6">
-                        <div class="image_thumb">
-                            <img src="{{ asset('images/project/1920018_1489725024573062_3330437712474776728_n.jpg') }}" class="img-responsive" alt="work">
-                            <div class="image_overlay">
-                                <a href="#"><i class="fa fa-thumbs-o-up"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <p>&nbsp;</p>
-                    <div class="col-sm-6 col-md-6">
-                        <div class="image_thumb">
-                            <img src="{{ asset('images/project/10329813_1489726967906201_4010460371663753889_o.jpg') }}" class="img-responsive" alt="work">
-                            <div class="image_overlay">
-                                <a href="#"><i class="fa fa-thumbs-o-up"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6">
-                        <div class="image_thumb">
-                            <img src="{{ asset('images/project/10295706_1489725017906396_1319934161006544688_n.jpg') }}" class="img-responsive" alt="work">
-                            <div class="image_overlay">
-                                <a href="#"><i class="fa fa-thumbs-o-up"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <video width="320" controls height="240" controls>
-                        <!-- <source src="movie.mp4" type="video/mp4"> -->
-                        <source src="video/WhatsApp Video 2021-01-21 at 22.23.16.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <!-- <div class="col-sm-6 col-md-3">
-                        <div class="image_thumb">
-                            <img src="{{ asset('images/project/16427504_1839090156303212_1784919649162169386_n.jpg') }}" class="img-responsive" alt="work">
-                            <div class="image_overlay">
-                                <a href="#"><i class="fa fa-thumbs-o-up"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div class="image_thumb">
-                            <img src="{{ asset('images/project/16473670_1839089732969921_8037184212651061610_n.jpg') }}" class="img-responsive" alt="work">
-                            <div class="image_overlay">
-                                <a href="#"><i class="fa fa-thumbs-o-up"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div class="image_thumb">
-                            <img src="{{ asset('images/project/WhatsApp Image 2021-01-23 at 13.32.58.jpeg') }}" class="img-responsive" alt="work">
-                            <div class="image_overlay">
-                                <a href="#"><i class="fa fa-thumbs-o-up"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <div class="image_thumb">
-                            <img src="{{ asset('images/p8.jpg') }}" class="img-responsive" alt="work">
-                            <div class="image_overlay">
-                                <a href="#"><i class="fa fa-thumbs-o-up"></i></a>
-                            </div>
-                        </div>
-                    </div> -->
+                    <a href="#" class="prev pagination-btn">Page 1</a>
+                    <a href="#" class="next pagination-btn">Page 2</a>
+
                 </div>
             </div>
         </div>
@@ -473,10 +442,24 @@
         .img-list img {
             float: left;
             max-height: 300px;
+            margin-top: 30px;
         }
 
         .img-list img:nth-child(4n-1) {
             clear: both;
+        }
+
+        .pagination-btn {
+            background-color: #ff4500;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
         }
     </style>
     <script>
